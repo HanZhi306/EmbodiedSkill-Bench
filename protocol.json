@@ -1,0 +1,60 @@
+{
+  "version": "embodied-module-v1",
+  "card_schema": {
+    "type": "object",
+    "required": ["type", "description", "source"],
+    "additionalProperties": false,
+    "properties": {
+      "type": {"enum": ["model", "control_function", "perception_interface", "paper", "repository", "experience_material", "support_asset"]},
+      "description": {"type": "string", "minLength": 1},
+      "source": {"type": "object", "required": ["sha256", "snapshot", "extension", "bytes", "availability", "occurrences"]}
+    }
+  },
+  "component_rules": {
+    "control_function": "scripts",
+    "perception_interface": "scripts",
+    "paper": "references",
+    "repository": "references",
+    "experience_material": "references",
+    "model": "assets",
+    "support_asset": "assets"
+  },
+  "component_meanings": {
+    "scripts": "Code and callable-interface declarations. A declaration or extracted method is not a standalone executable; consult its normalized access contract.",
+    "references": "Materials read to understand or design a skill. A repository locator is a reference; its code, documentation and configurations are independently collected and classified.",
+    "assets": "Static configuration, argument schemas, model descriptors and checkpoint locks. Model weights remain external; model wrappers are separate script modules."
+  },
+  "request_schema": {
+    "type": "object", "additionalProperties": false,
+    "required": ["module_id", "operation"],
+    "properties": {
+      "module_id": {"type": "string"},
+      "operation": {"enum": ["read", "prepare", "invoke"]},
+      "binding": {"type": "string"},
+      "arguments": {"type": "object"},
+      "request_id": {"type": "string", "minLength": 1}
+    }
+  },
+  "response_schema": {
+    "type": "object", "additionalProperties": false,
+    "required": ["ok", "status", "module_id", "data", "error"],
+    "properties": {
+      "ok": {"type": "boolean"},
+      "status": {"enum": ["read", "prepared", "executed", "error"]},
+      "module_id": {"type": "string"},
+      "data": {},
+      "error": {"type": ["object", "null"]}
+    }
+  },
+  "assembly_plan_schema": {
+    "type": "object", "additionalProperties": false,
+    "required": ["name", "description", "instructions", "modules", "rationale"],
+    "properties": {
+      "name": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 63},
+      "description": {"type": "string", "minLength": 1, "maxLength": 1024},
+      "instructions": {"type": "string", "minLength": 1},
+      "modules": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+      "rationale": {"type": "string", "minLength": 1}
+    }
+  }
+}

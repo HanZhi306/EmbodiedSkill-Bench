@@ -1,0 +1,102 @@
+{
+  "asset_patterns": [
+    "EmbodiedSkillBench*/datasets/embodied_skill_assets_v1",
+    "EmbodiedSkillBench*/framework/datasets/embodied_skill_assets_v1"
+  ],
+  "extra_files": [
+    {
+      "description": "Original EmbodiedJev visual planning, plan resolution and motor decision implementation used by the waypoint integration.",
+      "path": "embodied-jev/src/embodied_jev/libero_policy.py",
+      "type": "control_function"
+    },
+    {
+      "description": "Existing Jev visual-waypoint usage procedure and feedback boundary.",
+      "path": "EmbodiedSkillBench-jev-waypoint-skill/skill/jev-follow-waypoint/SKILL.md",
+      "type": "experience_material"
+    },
+    {
+      "description": "Original seven-field visual waypoint planner instructions used by the Jev wrapper.",
+      "path": "EmbodiedSkillBench-jev-waypoint-skill/skill/jev-follow-waypoint/references/native-planner.txt",
+      "type": "experience_material"
+    },
+    {
+      "description": "Jev observe and waypoint JSON argument schemas, expressed as pure Python schema constructors.",
+      "path": "EmbodiedSkillBench-jev-waypoint-skill/contract.py",
+      "type": "support_asset"
+    },
+    {
+      "description": "Jev bounded waypoint session implementation; requires its experiment runtime.",
+      "path": "EmbodiedSkillBench-jev-waypoint-skill/runtime.py",
+      "type": "control_function"
+    },
+    {
+      "description": "Jev typed tool transport bridge; requires an active waypoint runtime.",
+      "path": "EmbodiedSkillBench-jev-waypoint-skill/bridge.py",
+      "type": "control_function"
+    }
+  ],
+  "implementation_patterns": [
+    {
+      "description": "Native typed VLA provider implementation, including prompt and model-profile dispatch.",
+      "pattern": "EmbodiedSkillBench*/src/embodied_skill_bench/runtime/semantic_vla.py",
+      "type": "control_function"
+    },
+    {
+      "description": "Native VLA model loading and inference-server implementation.",
+      "pattern": "EmbodiedSkillBench*/src/embodied_skill_bench/runtime/vla_policy_server.py",
+      "type": "control_function"
+    },
+    {
+      "description": "Native read-only perception provider implementation.",
+      "pattern": "EmbodiedSkillBench*/src/embodied_skill_bench/runtime/perception.py",
+      "type": "perception_interface"
+    },
+    {
+      "description": "Native perception-provider argument and result contracts.",
+      "pattern": "EmbodiedSkillBench*/src/embodied_skill_bench/runtime/perception_contracts.py",
+      "type": "support_asset"
+    },
+    {
+      "description": "Native grasp verification and result interpretation implementation.",
+      "pattern": "EmbodiedSkillBench*/src/embodied_skill_bench/runtime/grasp_verification.py",
+      "type": "perception_interface"
+    },
+    {
+      "description": "Native typed VLA provider implementation, including prompt and model-profile dispatch.",
+      "pattern": "EmbodiedSkillBench*/framework/src/embodied_skill_bench/runtime/semantic_vla.py",
+      "type": "control_function"
+    },
+    {
+      "description": "Native VLA model loading and inference-server implementation.",
+      "pattern": "EmbodiedSkillBench*/framework/src/embodied_skill_bench/runtime/vla_policy_server.py",
+      "type": "control_function"
+    },
+    {
+      "description": "Native read-only perception provider implementation.",
+      "pattern": "EmbodiedSkillBench*/framework/src/embodied_skill_bench/runtime/perception.py",
+      "type": "perception_interface"
+    },
+    {
+      "description": "Native perception-provider argument and result contracts.",
+      "pattern": "EmbodiedSkillBench*/framework/src/embodied_skill_bench/runtime/perception_contracts.py",
+      "type": "support_asset"
+    },
+    {
+      "description": "Native grasp verification and result interpretation implementation.",
+      "pattern": "EmbodiedSkillBench*/framework/src/embodied_skill_bench/runtime/grasp_verification.py",
+      "type": "perception_interface"
+    }
+  ],
+  "main_pool": "EmbodiedSkillBench/skill-pool",
+  "max_file_bytes": 2000000,
+  "paper_zip": "paper-writing/26_EmbodiedSkill_ICLR (1).zip",
+  "pool_patterns": [
+    "EmbodiedSkillBench*/skill-pool",
+    "EmbodiedSkillBench*/framework/skill-pool"
+  ],
+  "profile_patterns": [
+    "EmbodiedSkillBench*/configs/vla/policy-profiles-v1.json",
+    "EmbodiedSkillBench*/configs/development/vla-route-candidates-v3.json"
+  ],
+  "workspace": "/path/to/source-workspace"
+}

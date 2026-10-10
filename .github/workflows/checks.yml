@@ -1,0 +1,29 @@
+name: Code checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  public-code:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Check public release contents
+        run: python scripts/check_public_release.py
+      - name: Install editable source package
+        run: python -m pip install -e .
+      - name: Check public task roster
+        run: esbench doctor
+      - name: Test native release and evaluator contracts
+        run: python -m unittest discover -s tests -v

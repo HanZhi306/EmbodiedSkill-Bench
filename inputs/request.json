@@ -1,0 +1,11 @@
+{
+  "purpose": "Help an agent recover from an empty grasp using current visual feedback, before it attempts transport.",
+  "environment": "libero-pro",
+  "preferred_scope": "paper-main",
+  "constraints": [
+    "Produce one focused, reusable experience skill; choose the supporting modules yourself.",
+    "Use public observations to distinguish empty closure from a stable intended hold.",
+    "Describe bounded recovery and verification; use separately available action and perception interfaces.",
+    "Do not encode a specific benchmark task, object pose, or successful trajectory."
+  ]
+}

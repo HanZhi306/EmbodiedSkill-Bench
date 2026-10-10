@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "rpent": {
+    "repository": "https://github.com/RLinf/RPent.git",
+    "commit": "3c2516e350d85dc3e2ca5a3c19b21faffaf28e3c"
+  },
+  "liberopro_task_data": {
+    "repository": "https://huggingface.co/datasets/zhouxueyang/LIBERO-Pro",
+    "revision": "c86fc3b8293185a6f373677018ff3e37f8391602",
+    "file_count": 676,
+    "bytes": 10269485
+  },
+  "liberopro_simulation_assets": {
+    "repository": "https://huggingface.co/datasets/RLinf/LIBERO-PRO-assets",
+    "revision": "e4b10c9adc5735c9c8776917527178e693ef10b3",
+    "file_count": 865,
+    "bytes": 644011553
+  },
+  "pi05_libero_checkpoint": {
+    "repository": "https://huggingface.co/RLinf/RLinf-Pi05-LIBERO-130-fullshot-SFT",
+    "revision": "6222623f635769bfc73c9472e29fab9b7fd8e027",
+    "inference_files": [
+      "model.safetensors",
+      "metadata.pt",
+      "physical-intelligence/libero/norm_stats.json"
+    ],
+    "model_safetensors_bytes": 7473091464,
+    "model_safetensors_sha256": "4d9089c941793f170b625c2ed0ac7a3aa09b6f103e52dbbc82e67301529d6683",
+    "metadata_pt_sha256": "8eba92f1159903755c6f529320913033a142a691bb148f90a96db0b6b91d6528",
+    "norm_stats_sha256": "dae37d79a22108af83df9189c6710a3ec8e077d65b28e34bdf1da724e5ae30f1",
+    "excluded_training_file": "optimizer.pt"
+  },
+  "cap_x_reference": {
+    "repository": "https://github.com/capgym/cap-x.git",
+    "commit": "53e9966d7a8e2fa7494676772bccc35280f5c0ed"
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "seed": 26,
+      "suite": "libero_10_lan",
+      "task": 7,
+      "task_language": "put alphabet soup and cream cheese box in basket",
+      "vla_seed": 1121809910,
+      "liberopro_bddl_sha256": "d2f99cab1f8b101dc38c296ebb7ede7952644271371c886c495f51cedbadb556",
+      "liberopro_init_states_sha256": "705bb87ffa5c5089fc90462b20939667b438555b707f8e95720bb0c305ef0e03"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_swap",
+      "task": 9,
+      "task_language": "put the yellow and white mug in the microwave and close it",
+      "vla_seed": 2117161874,
+      "liberopro_bddl_sha256": "9790756193e8597c5f9cb14047ff327f96aeb146a7f9a6a99931d6eec8943c1f",
+      "liberopro_init_states_sha256": "6d198f489d3cb58b92b68caabb18c07c5adc964514b012a551fdb06d3bfdfb81"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_task",
+      "task": 9,
+      "task_language": "put the white mug in the microwave and close it",
+      "vla_seed": 791160118,
+      "liberopro_bddl_sha256": "f31d1b020ae25801beba84aa3c8b912f9beb0c2b5e33ce84005c556cd578c703",
+      "liberopro_init_states_sha256": "85fe1e35fef354f2e5e5b1abac4a8ab447aeecc5e95459e29551febaf8092cd3"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_object",
+      "task": 8,
+      "task_language": "Put the bowl on the plate",
+      "vla_seed": 150644468,
+      "liberopro_bddl_sha256": "69af3a8a44a5e2848894a13db9ecc0fb8b87ac8149fc6c18e1e0623bb7d8a5ce",
+      "liberopro_init_states_sha256": "91bd3f2bfe19865bc532e62073231b3fe0e5ad7a268d3b72fc87f273c2216e93"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_swap",
+      "task": 7,
+      "task_language": "Turn on the stove",
+      "vla_seed": 532330530,
+      "liberopro_bddl_sha256": "098b3f1e3685b16296fb77653fa00311945e33243c98e477e859fb6f1a4b1f68",
+      "liberopro_init_states_sha256": "2f34af5e6bfe46bfa247080aa60b342149f0e33692659044481b2ac757a52bd1"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_task",
+      "task": 3,
+      "task_language": "Open the top layer of the drawer and put the cream cheese inside",
+      "vla_seed": 1446864946,
+      "liberopro_bddl_sha256": "468fc65a5aa7e63cc829efb9f7970cadbfc39bfe5695930c5e1d252f05ed5078",
+      "liberopro_init_states_sha256": "74b021b8965a24e7cda501c236683f862853ca4fe883621328156c78ad5414c0"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_lan",
+      "task": 0,
+      "task_language": "grab alphabet soup and put it into basket",
+      "vla_seed": 2059052025,
+      "liberopro_bddl_sha256": "ca6e7f3dd1c959f661528368a6dba60c5376532d03f06a72cc61407fa1bd5f07",
+      "liberopro_init_states_sha256": "54ccf1d892a66747e4e5a8f014173cd396bbcf1782a5a1bee117ddff9a51bb35"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_object",
+      "task": 1,
+      "task_language": "Pick the cream cheese and place it in the basket",
+      "vla_seed": 1765268367,
+      "liberopro_bddl_sha256": "2bdd42a7e444d5d02723901b7e11c2ee1a2964b5a4ba972b495d79fce7a0c4a5",
+      "liberopro_init_states_sha256": "0c127f132eb2d4877b01daad923f00df8917c77f0a5a58cb6434cc5e62a553bd"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_task",
+      "task": 6,
+      "task_language": "Pick the orange juice and place it in the basket",
+      "vla_seed": 409205820,
+      "liberopro_bddl_sha256": "cbc70e1f66b3da4255a82c41db3d75c1639accd6c77960ff5c2a7f98655d011d",
+      "liberopro_init_states_sha256": "ff52393894a02fdf336daaf0c97a28593c5cd13fd8f6da3b5ef782204d99d54b"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_lan",
+      "task": 0,
+      "task_language": "lift the black bowl between the plate and ramekin and set it on the plate",
+      "vla_seed": 116632938,
+      "liberopro_bddl_sha256": "45bd633fc5920555eca0f8b58b4e2e8fe2c8d46c968ee4c3f7ed11d9acaeb565",
+      "liberopro_init_states_sha256": "9819644a43e5ca5a6cf3b16ca564192810179a2adc4654692643f88701b544ff"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_object",
+      "task": 4,
+      "task_language": "Pick the akita black bowl in the top layer of the wooden cabinet and place it on the plate",
+      "vla_seed": 699945566,
+      "liberopro_bddl_sha256": "ea6ada049993b48aa6b18f6c646a19c85a4483d253183168a5284eb7334a7163",
+      "liberopro_init_states_sha256": "1b1164a08a64d66b9e716f45b84ea31423cd7cab430be5f8073b92616109999f"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_swap",
+      "task": 8,
+      "task_language": "Pick the akita black bowl next to the plate and place it on the plate",
+      "vla_seed": 1661544337,
+      "liberopro_bddl_sha256": "4c5f0591a1a381be994c7f60a24e73358198310bda48221c3322d032c2278453",
+      "liberopro_init_states_sha256": "ba9041b336af39ccc651c40c10bc89391f9b3330c5399a0822ac47f49b16ac66"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_lan",
+      "task": 0,
+      "task_language": "place alphabet soup and tomato sauce into basket",
+      "vla_seed": 1773120791,
+      "liberopro_bddl_sha256": "1739b71bf4cee786c8f5ab92270e4af664c8ad3f489fb48133ed79fa10c03db5",
+      "liberopro_init_states_sha256": "8f494deb459632389f9c59829932a7dead4c8df674606d421921e1d7b4642352"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_object",
+      "task": 0,
+      "task_language": "put both the alphabet soup and the tomato sauce in the basket",
+      "vla_seed": 583035460,
+      "liberopro_bddl_sha256": "de41f4dba725e5e98e4a451aa15b7684fd188704e9485f24f986e24e96a46864",
+      "liberopro_init_states_sha256": "a7a241cac81fbda5a25a0c4b53e392039c2e691b534c20d60f92b663f9454e89"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_swap",
+      "task": 0,
+      "task_language": "put both the alphabet soup and the tomato sauce in the basket",
+      "vla_seed": 1268924613,
+      "liberopro_bddl_sha256": "f2b5896754bf46b02090533835e61f057c64fa8403b8dde0caa380ddfb10e567",
+      "liberopro_init_states_sha256": "c4e202fbfeecf8867f8118a1cc45477e1340364191e7dbcf55746a5fc26202df"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_task",
+      "task": 0,
+      "task_language": "put both the cream cheese and the tomato sauce in the basket",
+      "vla_seed": 544183626,
+      "liberopro_bddl_sha256": "b04e67b9118b6b0a41956541ef4f66e479a341dd408c21f045c372a169fe01ef",
+      "liberopro_init_states_sha256": "26c7d1bd640ae4d06a68c0b04bbfed789264226d290e33c3fa148b0a38b02b13"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_lan",
+      "task": 9,
+      "task_language": "place yellow and white mug in microwave and close door",
+      "vla_seed": 937716435,
+      "liberopro_bddl_sha256": "a3c35ae098c5cabcebff01e3fa8d2f8cc58b8bcebf322c4782bd4b5a636ea40e",
+      "liberopro_init_states_sha256": "e6046ba7f4c5b4327825164a30ad4d447f7cd06f3df77f0eae76ff24dabdae14"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_object",
+      "task": 9,
+      "task_language": "put the yellow and white mug in the microwave and close it",
+      "vla_seed": 227265627,
+      "liberopro_bddl_sha256": "ab6600b36405fde6983bd0089e6579d554f8673e15acfdad1e7c1e823f83e416",
+      "liberopro_init_states_sha256": "d206e6a9d66474bd36809c055a1fe1d54a5195a0204a2dc996b4772a702dd23c"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_lan",
+      "task": 2,
+      "task_language": "place the wine bottle on top of the cabinet",
+      "vla_seed": 1266610619,
+      "liberopro_bddl_sha256": "4d569bc740a84fb400505ff3f3eb1a6245be651b4f6ab98a77cc2890b7ecbd80",
+      "liberopro_init_states_sha256": "4abb28cbb338d7a6d1078b8cdff41d47827c423004f158d924fb3d6d14e259ad"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_object",
+      "task": 2,
+      "task_language": "Put the wine bottle on the top of the drawer",
+      "vla_seed": 186283818,
+      "liberopro_bddl_sha256": "7c9084631f87470e5ad42bba7b1d8bdb6a7972aac9b0dafb85bf9895b81bf51e",
+      "liberopro_init_states_sha256": "b889e9e584bc91c8b8652355e9abdb4df36c9c6ae8c4b2683b7942ab5616f2d8"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_swap",
+      "task": 2,
+      "task_language": "Put the wine bottle on the top of the drawer",
+      "vla_seed": 1253736721,
+      "liberopro_bddl_sha256": "5f3ee58250bc20bdf8d4585c858784346cb14df06aa57d8b8fbb12e600bec5e7",
+      "liberopro_init_states_sha256": "66dd3dfdc126653e8c4706c3b6cccea6e0b00d0cefcdaa727aa8245cdbbb8606"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_task",
+      "task": 2,
+      "task_language": "put the wine bottle in the bowl",
+      "vla_seed": 1915975569,
+      "liberopro_bddl_sha256": "6b1313fed55a99f993f2a8c158b7dcf23fc1359ef54977e21516c479d187e36a",
+      "liberopro_init_states_sha256": "8ba943e9e39899cb5a0c6f1e5d241eca95cd1d58c72f9f6e8d90f602b7cb54e9"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_lan",
+      "task": 1,
+      "task_language": "grab cream cheese and put into basket",
+      "vla_seed": 1540877051,
+      "liberopro_bddl_sha256": "7fa9b3acf373c074181b45d0f1dfb054234d0d223cbdba6a6696c1309fd32c79",
+      "liberopro_init_states_sha256": "e901f0d0e07908a18f4ac66f729bf17f1c23584bdc134a79ea46ae98429a7626"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_swap",
+      "task": 1,
+      "task_language": "Pick the cream cheese and place it in the basket",
+      "vla_seed": 1878603067,
+      "liberopro_bddl_sha256": "59984ec9fb4b381a614f50f271cacecca73b08d3969ddfff71202063de5aacfd",
+      "liberopro_init_states_sha256": "f9bb455a4fd1dac83a72d33673509a2f175f7fb63026b9fef78d66515771e022"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_task",
+      "task": 1,
+      "task_language": "Pick the alphabet soup and place it in the basket",
+      "vla_seed": 963825562,
+      "liberopro_bddl_sha256": "3f11a77af9fe07d9ecdd6d91f06f064d4a30ab162e37df8c9a92d3bd6df17c54",
+      "liberopro_init_states_sha256": "e37ade0ccb98728e8af76c2fa69685897253e82ba939ff8be023ff93a95f552a"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_lan",
+      "task": 6,
+      "task_language": "grab butter and put it into basket",
+      "vla_seed": 1390703325,
+      "liberopro_bddl_sha256": "b8629184a1176ad939e70d91ce61709e6bdca845a684a15b47791a723d05c1de",
+      "liberopro_init_states_sha256": "f7003aedbabdfcbb667052f657a8f651ac89eb3cc5885b6fc8510568f25ac2d4"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_object",
+      "task": 6,
+      "task_language": "Pick the butter and place it in the basket",
+      "vla_seed": 501710988,
+      "liberopro_bddl_sha256": "beb0387f33b72d6e6f33d14f26665eeef4267b39f6329b6ecb33b91810173c2f",
+      "liberopro_init_states_sha256": "bd672d1d9addf7e113d51ff5d96c84ccad326aef9b38d788e827cb709bde9a28"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_swap",
+      "task": 6,
+      "task_language": "Pick the butter and place it in the basket",
+      "vla_seed": 1440527223,
+      "liberopro_bddl_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "liberopro_init_states_sha256": "1f193d9cfd85c3c4e33451f125627d8d1ba292d980a0fa2c2930be7cd67655b8"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_object",
+      "task": 0,
+      "task_language": "Pick the akita black bowl between the plate and the ramekin and place it on the plate",
+      "vla_seed": 382250314,
+      "liberopro_bddl_sha256": "2e093e1d98f3db11a0f75682efd599f065dc7d8faefe42a4fe28b7e1e4bc27b9",
+      "liberopro_init_states_sha256": "cd937390b1d5afa346ef73a1e6cda0806775d2842304941e71a8bc9419273292"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_swap",
+      "task": 0,
+      "task_language": "Pick the akita black bowl between the plate and the ramekin and place it on the plate",
+      "vla_seed": 469468514,
+      "liberopro_bddl_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "liberopro_init_states_sha256": "b03c5dcddce5c6e2cf687861caed0b677faab935ee5a1513a69eb4bb6caf5589"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_task",
+      "task": 0,
+      "task_language": "Pick the akita black bowl not between the plate and the ramekin and place it on the plate",
+      "vla_seed": 2073293331,
+      "liberopro_bddl_sha256": "61ff13656df194011d9c5fb3873098fcce18563d380d4437622d8d910a996bdc",
+      "liberopro_init_states_sha256": "7c407820c1d170359b13e159f9940327674821f416d70ce2b8ca1c5b4bdf954c"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_lan",
+      "task": 8,
+      "task_language": "pick the bowl beside the plate and put it on plate",
+      "vla_seed": 26636327,
+      "liberopro_bddl_sha256": "7a69bb7415c23aaaddea2dc852bf7b02177eaf7ed84758a36c0988dd082eba21",
+      "liberopro_init_states_sha256": "3ac07ec3f084a03ae3c7b1ff789e3e306fc3e34b5a803bac1f1d54095945449e"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_object",
+      "task": 8,
+      "task_language": "Pick the akita black bowl next to the plate and place it on the plate",
+      "vla_seed": 194208640,
+      "liberopro_bddl_sha256": "0b80ac89a2a51c5f1f31bd399ff66927ee7454572ba3b93bcd52c5b4d243aa0a",
+      "liberopro_init_states_sha256": "c4aa415e7e447f2758ed35aeb0fce16f14a00aa29a63ba743be7b5a46c43bb40"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_task",
+      "task": 8,
+      "task_language": "Pick the akita black bowl next to the ramekin and place it on the plate",
+      "vla_seed": 623229583,
+      "liberopro_bddl_sha256": "9d986dd0c2b80c43e12c8b6dc14cae091edfded91048f55e8987ca4eddd1acc0",
+      "liberopro_init_states_sha256": "8c5e0028e12a7c53be54b45414a935f02d7b7da7d829a085fabf2937a51b21e0"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_lan",
+      "task": 1,
+      "task_language": "place cream cheese box and butter into basket",
+      "vla_seed": 953733774,
+      "liberopro_bddl_sha256": "5873bc27cb68d5b8d3dd61a6ad2ced107831f3fab416dc19c3c52e0f17aed2d0",
+      "liberopro_init_states_sha256": "ed085e604758c4a383300d8aa70e0acce511925e5bb5c007a926213c766efe3c"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_object",
+      "task": 1,
+      "task_language": "put both the cream cheese box and the butter in the basket",
+      "vla_seed": 2076001244,
+      "liberopro_bddl_sha256": "21a3442521b3f43b19f20c6496cda9fc0b105d27aada0486f106c9fb28f51602",
+      "liberopro_init_states_sha256": "b856f020b0693aca3e3f255cf04edc50ee813ec08681774d4e067b5588f03194"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_swap",
+      "task": 1,
+      "task_language": "put both the cream cheese box and the butter in the basket",
+      "vla_seed": 1714913278,
+      "liberopro_bddl_sha256": "929d856589441ca5825124f18c0bf221015a3d28253a54c4cb01a7a430274af1",
+      "liberopro_init_states_sha256": "9addded8cadf4ca2ea41a549953ff84018f87e816167abc9b1e8c557398a6b2d"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_10_task",
+      "task": 1,
+      "task_language": "put both the alphabet soup and the butter in the basket",
+      "vla_seed": 529202009,
+      "liberopro_bddl_sha256": "070d643dfbe177e87e25c5a8ce626ae2417ee29bfbd0f7d2138bb08264ac0088",
+      "liberopro_init_states_sha256": "32aef56cb7a71cd4d4a972a828f5db9030ecb53cbb4e439834759fe8bf8e6bd4"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_lan",
+      "task": 3,
+      "task_language": "slide open the top drawer and place the bowl in it",
+      "vla_seed": 284370325,
+      "liberopro_bddl_sha256": "286f4ba641cbd653e3913b2b373cd9c86145b0ea7acb2853ca9ba43a32e70c3e",
+      "liberopro_init_states_sha256": "13028ed7059204fc88cac2714e5572e9d35377b8641a4dc58529d8b8ee8f0f3b"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_object",
+      "task": 3,
+      "task_language": "Open the top layer of the drawer and put the bowl inside",
+      "vla_seed": 1084281449,
+      "liberopro_bddl_sha256": "7a95a6d6ab0ec39424f03a1743979e143f43ce251993bc8cccf68ec4bccf4324",
+      "liberopro_init_states_sha256": "8febc8d40dec9bd26cb072370cd16ea41ef66a6b8125aaafc335cc2ff8007192"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_swap",
+      "task": 3,
+      "task_language": "Open the top layer of the drawer and put the bowl inside",
+      "vla_seed": 640901280,
+      "liberopro_bddl_sha256": "b59abad4375fbd0b3898daac0607d2a2303c644ffa17571d046434eee7a118fd",
+      "liberopro_init_states_sha256": "a62c59a5af059cf77d97bd0b23280d329c2363556fd9dc9c34f34e1412d80571"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_lan",
+      "task": 6,
+      "task_language": "place the cream cheese inside the bowl",
+      "vla_seed": 1254124801,
+      "liberopro_bddl_sha256": "b526fd1fafde359951f7666dfb6a820b0ef7b716d37f955845879df2d5fd3ffd",
+      "liberopro_init_states_sha256": "d561471ddc497c07fa11739362d59c555211a347c47b81bb3fe4b134ce8eefff"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_object",
+      "task": 6,
+      "task_language": "Put the cream cheese on the bowl",
+      "vla_seed": 934723979,
+      "liberopro_bddl_sha256": "f7fb5c20c12bdce1fa989a2c863daa7732180d714bdb78453f2074629ae43688",
+      "liberopro_init_states_sha256": "2bf294b1ebb56766c440441139c49292bede8587793cadcb93f6a418cd3d7c10"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_swap",
+      "task": 6,
+      "task_language": "Put the cream cheese on the bowl",
+      "vla_seed": 1854623581,
+      "liberopro_bddl_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "liberopro_init_states_sha256": "99ed286464b1f7c8f852a2e3fe6d4d692a7a44e50d2a5b08d721705c6e390f54"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_goal_task",
+      "task": 6,
+      "task_language": "put the wine bottle in the bowl",
+      "vla_seed": 1671623418,
+      "liberopro_bddl_sha256": "6b1313fed55a99f993f2a8c158b7dcf23fc1359ef54977e21516c479d187e36a",
+      "liberopro_init_states_sha256": "8beb8a6afa57c15148a5758565a5070ce1370424572a42081b6fc561be5417ee"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_object",
+      "task": 0,
+      "task_language": "Pick the alphabet soup and place it in the basket",
+      "vla_seed": 38891865,
+      "liberopro_bddl_sha256": "ccc885a5817f50925669b902de89a891a7cbca193bf4a54e4dde00f6e974ef31",
+      "liberopro_init_states_sha256": "9145aac8410721db67e83d4b6413c8db980fd3145b7f61831cbc99b0ff58788b"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_swap",
+      "task": 0,
+      "task_language": "Pick the alphabet soup and place it in the basket",
+      "vla_seed": 1507080468,
+      "liberopro_bddl_sha256": "fb1a2a7457cb6b885366915d470c1837830eb0b2422634483bb34380e33acf95",
+      "liberopro_init_states_sha256": "73bca978486a6dd218f53a950af06fe984cbb2498c1a3e6253f2e9a8b84df669"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_task",
+      "task": 0,
+      "task_language": "Pick the cream cheese and place it in the basket",
+      "vla_seed": 1274725285,
+      "liberopro_bddl_sha256": "3dcf0acdbafa28968d7b990520232eac3181b525ec1bcc96030dec172b64e2e2",
+      "liberopro_init_states_sha256": "292758a37a733e44006270bbe706e14f83c086ff16517fca432f851817932340"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_lan",
+      "task": 8,
+      "task_language": "lift chocolate pudding and put it in basket",
+      "vla_seed": 1909568260,
+      "liberopro_bddl_sha256": "a37df5384129bdbb55cea9d2d7509d706b5f3d511c4d1b309c4e116c4d5390c6",
+      "liberopro_init_states_sha256": "ceeed8e1edfe98dcf21a1b5ffbb3f668cdceb603610e441522f51f0c1fcec7b3"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_object",
+      "task": 8,
+      "task_language": "Pick the chocolate pudding and place it in the basket",
+      "vla_seed": 1614627738,
+      "liberopro_bddl_sha256": "ced3aba8233baee3d691a9898ad69eef94b0e9ebc6e166762cda1c815511d5eb",
+      "liberopro_init_states_sha256": "510e205e0e3dc19dcea31ba38ab67975a2449712567186c0f668c102e3610c28"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_swap",
+      "task": 8,
+      "task_language": "Pick the chocolate pudding and place it in the basket",
+      "vla_seed": 263570084,
+      "liberopro_bddl_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "liberopro_init_states_sha256": "fe37e20ba14cb409d5aae77cbca2a7dd3cf423f8cff5580549027380f935da69"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_object_task",
+      "task": 8,
+      "task_language": "Pick the salad dressing and place it in the basket",
+      "vla_seed": 402182503,
+      "liberopro_bddl_sha256": "654b63bc6d458491640687cbba5ed34b5933727b6230fc9cde1026af5c0344bf",
+      "liberopro_init_states_sha256": "8d8444e83a8e0067d4e686f56468c6c175be75d99812b7ca1ca7388d2993e444"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_lan",
+      "task": 6,
+      "task_language": "grab the black bowl beside the cookie box and set it on plate",
+      "vla_seed": 2097857251,
+      "liberopro_bddl_sha256": "bff0e0903b0bfbcd15a0512f89b543fdb585bdb634f7a5e09849a9f3fc4994b8",
+      "liberopro_init_states_sha256": "e75e6a75a09d6f5cbcd4219b497a2c5e677cd744bf78650e91ebee7a73332c1e"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_object",
+      "task": 6,
+      "task_language": "Pick the akita black bowl next to the cookies box and place it on the plate",
+      "vla_seed": 1916581314,
+      "liberopro_bddl_sha256": "2593f7f1d2d1306fe6db7b57633647a7d70cf9cd77ed05c5b1fb155514261c57",
+      "liberopro_init_states_sha256": "652c68fd8d4b01d8360a47bbc15c245e3ef4cc6e4e197adb1e720d719baab8d1"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_swap",
+      "task": 6,
+      "task_language": "Pick the akita black bowl next to the cookies box and place it on the plate",
+      "vla_seed": 1000473326,
+      "liberopro_bddl_sha256": "5bae2baa43f21b1f4e7ddf4053b902aad6792e339d51bf2e2375d78e007a6d7f",
+      "liberopro_init_states_sha256": "bbc72f97e5f35e9793cace6cef334b693e6f0eb7a23d23b0fed39a4db4792bc4"
+    },
+    {
+      "seed": 26,
+      "suite": "libero_spatial_task",
+      "task": 6,
+      "task_language": "Pick the akita black bowl on the stove and place it on the plate",
+      "vla_seed": 1290337349,
+      "liberopro_bddl_sha256": "a8af1025208c8a682be385872cef07fe2ae8348ffc5bef260cf31dd2c34a30c1",
+      "liberopro_init_states_sha256": "197aedfeac0069d2d1a68d4311412e852fe11c6c71d117b1c7fe74b3fe98c41e"
+    },
+    {
+      "liberopro_bddl_sha256": "8780da346b3885c18b676f2144e0062e3bed3a6aab9088ff07178feb8c2a64e0",
+      "liberopro_init_states_sha256": "00ea1f76b6d67409b98e14ce9378773c76d066ff4db6a4326775d0e44476f2f3",
+      "seed": 26,
+      "suite": "libero_10_lan",
+      "task": 4,
+      "task_language": "place white mug on left plate and yellow-white mug on right plate",
+      "vla_seed": 455078184
+    },
+    {
+      "liberopro_bddl_sha256": "bf5317273b8db522305c04fc16ceedd588e1de98fe694ffcccb56eafd7ef0063",
+      "liberopro_init_states_sha256": "77f3fcea97edd50e9bd8ce3980e6e86ecb2219d3d0f525c66bedf8893e771b77",
+      "seed": 26,
+      "suite": "libero_10_object",
+      "task": 4,
+      "task_language": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "vla_seed": 78412552
+    },
+    {
+      "liberopro_bddl_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "liberopro_init_states_sha256": "26f4ccea4e65737ffd94e5219050729d2d2a67aa8e7d13033a73bc4598e3e187",
+      "seed": 26,
+      "suite": "libero_10_swap",
+      "task": 4,
+      "task_language": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "vla_seed": 1656156924
+    },
+    {
+      "liberopro_bddl_sha256": "f3458f2b14426e23057b40ccb5cf46e5d8e50d7d2799e5923164c58b87374bfd",
+      "liberopro_init_states_sha256": "cccf2d48f1f65761532d3b299e854e63a9bc7e96587236f8525c95c1fd752c0e",
+      "seed": 26,
+      "suite": "libero_10_task",
+      "task": 4,
+      "task_language": "put the yellow and white mug on the left plate and put the white mug on the right plate",
+      "vla_seed": 751110710
+    },
+    {
+      "liberopro_bddl_sha256": "cff3b8fa5dfb5878a763990174f4ec2070f262888a5a005deee85afb690b76d4",
+      "liberopro_init_states_sha256": "608cfcd5b33806d84606de0dde339a8150559ab5e8eeec54c2ea123c508b66b6",
+      "seed": 26,
+      "suite": "libero_goal_lan",
+      "task": 4,
+      "task_language": "place the bowl on top of the cabinet",
+      "vla_seed": 625186898
+    },
+    {
+      "liberopro_bddl_sha256": "0697f80cec01abdf5695f146f3e40cd576415d014f49632cfb5339056e9e4a53",
+      "liberopro_init_states_sha256": "3b2934662f1cce7aa84b1a94689d58029a3613f9ee9b3f302c17ec486aeafe1e",
+      "seed": 26,
+      "suite": "libero_goal_object",
+      "task": 4,
+      "task_language": "Put the bowl on the top of the drawer",
+      "vla_seed": 2122768789
+    },
+    {
+      "liberopro_bddl_sha256": "a62b2bb692f0a2621dee56bf15f456d7342ace4677ba534cc4d65762af80d8c6",
+      "liberopro_init_states_sha256": "077a6ba4855cafee642118c22176a4defb07d5cef71e33d7d7258871aeeb2e90",
+      "seed": 26,
+      "suite": "libero_goal_swap",
+      "task": 4,
+      "task_language": "Put the bowl on the top of the drawer",
+      "vla_seed": 870575041
+    },
+    {
+      "liberopro_bddl_sha256": "8ebaeda89603edc8f149c295ca8eaf159e2af6c6640f96819f9d41b354471ef5",
+      "liberopro_init_states_sha256": "f27e85f6f4e1c1ddecf4c6034367bfe73b33bbaca6109396d360b94505cfd15c",
+      "seed": 26,
+      "suite": "libero_goal_task",
+      "task": 4,
+      "task_language": "Put the plate on the top of the drawer",
+      "vla_seed": 1405008451
+    },
+    {
+      "liberopro_bddl_sha256": "d514fafbed07a3f1495ef9295ce443c6c6bbcbf44331b338b1116f5756dc3da4",
+      "liberopro_init_states_sha256": "de9c59adde9fbb2c2a659ce9a183d4cb45b3a87098d4a98b232f1a4d994f33e2",
+      "seed": 26,
+      "suite": "libero_goal_lan",
+      "task": 7,
+      "task_language": "switch on the stove",
+      "vla_seed": 703007555
+    },
+    {
+      "liberopro_bddl_sha256": "9766aeef78848b2e41711b253b3cf1602a4c11ca8d37f7aa047a40a6d6f2ff3e",
+      "liberopro_init_states_sha256": "6d95f205b6492b3f69453d5117559f95f6f32c195f92192ef1040fc3de1966d5",
+      "seed": 26,
+      "suite": "libero_goal_object",
+      "task": 7,
+      "task_language": "Turn on the stove",
+      "vla_seed": 222848058
+    },
+    {
+      "liberopro_bddl_sha256": "f707a0169eea87386e74203f0e651d270aabe9ad10a3ae4019465e627380a83d",
+      "liberopro_init_states_sha256": "28d352ccac0b7b9c2e7a2f27867fb13aa5e86bad75c891c6bc485bf9df27305d",
+      "seed": 26,
+      "suite": "libero_goal_task",
+      "task": 7,
+      "task_language": "Turn off the stove",
+      "vla_seed": 1166053118
+    },
+    {
+      "liberopro_bddl_sha256": "35a04ed9d16a637298836a50a74b0a5ec5644a36010b97eff1734dbe1ac445b3",
+      "liberopro_init_states_sha256": "5569499fbf02205500985215024f6e55854315fbed95fec4a93918dd075fc634",
+      "seed": 26,
+      "suite": "libero_object_lan",
+      "task": 7,
+      "task_language": "grab milk and put into basket",
+      "vla_seed": 1967929097
+    },
+    {
+      "liberopro_bddl_sha256": "9e77b95d4488d21dd262622c98f3e2e17c27f2adf6f15f501c2538f8499d0c40",
+      "liberopro_init_states_sha256": "e8aaa6c48948a2ba3bf51076e59815c1917160c3bafc64984224b1303d29bf59",
+      "seed": 26,
+      "suite": "libero_object_object",
+      "task": 7,
+      "task_language": "Pick the milk and place it in the basket",
+      "vla_seed": 1988818003
+    },
+    {
+      "liberopro_bddl_sha256": "43ce8994cd883cbd29550c81f0f7191672172055191acf742d1cc65880484757",
+      "liberopro_init_states_sha256": "d44fb8ef27bb4077e085c8f4d561640fdfda975c37dcd17d545d86170636cb3a",
+      "seed": 26,
+      "suite": "libero_object_swap",
+      "task": 7,
+      "task_language": "Pick the milk and place it in the basket",
+      "vla_seed": 1459192941
+    },
+    {
+      "liberopro_bddl_sha256": "62b05009226957504545e39e34fb47960c64770b1fe09281a4ef288a1d5787f7",
+      "liberopro_init_states_sha256": "2bd1d722dc710d434f33888adc9c554e929ccc23774fd658faa02226f667ad56",
+      "seed": 26,
+      "suite": "libero_object_task",
+      "task": 7,
+      "task_language": "Pick the butter and place it in the basket",
+      "vla_seed": 1284033788
+    },
+    {
+      "liberopro_bddl_sha256": "b298f53440154d28d6ad6c9bc4931ea5715540dba96e45f2ce96df8e1f7b8cd7",
+      "liberopro_init_states_sha256": "51ce54509587c941ed21e61f849032c19452443b2570b5608bb1caccb7567347",
+      "seed": 26,
+      "suite": "libero_spatial_lan",
+      "task": 4,
+      "task_language": "take the black bowl from the top drawer and put it on plate",
+      "vla_seed": 1182149792
+    },
+    {
+      "liberopro_bddl_sha256": "f4be36409e162da8073f3f84fc1eff1cfb94150e7642ef4f8467bcf2fb0addf4",
+      "liberopro_init_states_sha256": "26e1d094660fc552e5e7496ac9bca46ba4427b48f4953db2fe277ba084158148",
+      "seed": 26,
+      "suite": "libero_spatial_swap",
+      "task": 4,
+      "task_language": "Pick the akita black bowl in the top layer of the wooden cabinet and place it on the plate",
+      "vla_seed": 13315442
+    },
+    {
+      "liberopro_bddl_sha256": "9bf0b5005d599a787e4fe614b6ccd0c30c55239afe3b4f19cffb56d64c92618a",
+      "liberopro_init_states_sha256": "55a2760f8d6e8cd4a4d9a3b50cac576828e4f119778ea1a2995f4f435f836dad",
+      "seed": 26,
+      "suite": "libero_spatial_task",
+      "task": 4,
+      "task_language": "Pick the akita black bowl on the top of the wooden cabinet and place it on the plate",
+      "vla_seed": 144332460
+    },
+    {
+      "liberopro_bddl_sha256": "0bfbc66b31e7663e9025574be3f88566e3d03a7497d148bc8e9ebed389f9f3bd",
+      "liberopro_init_states_sha256": "340af3f4e6a198a03591928b7060ce611630a3094c7d16f362a3d66c7023f60f",
+      "seed": 26,
+      "suite": "libero_spatial_lan",
+      "task": 5,
+      "task_language": "grab black bowl on ramekin and set it on plate",
+      "vla_seed": 1129292566
+    },
+    {
+      "liberopro_bddl_sha256": "da60258c02cea24f380d44c3fad1fa7f1fbc62cf190acad6fdd71ae84c7a493f",
+      "liberopro_init_states_sha256": "4e19607f2aa96eb2d668ad396f95867487da2156edece110ad83887f00c65445",
+      "seed": 26,
+      "suite": "libero_spatial_object",
+      "task": 5,
+      "task_language": "Pick the akita black bowl on the ramekin and place it on the plate",
+      "vla_seed": 1569957384
+    },
+    {
+      "liberopro_bddl_sha256": "d8947a72b5c586a7dcf31605f3cab3b915726acf91e8f1e98d470468264a138e",
+      "liberopro_init_states_sha256": "06bcf32eb88b0f3b51faf19d5cd4f0a8149024699f695f81673cb99113b32977",
+      "seed": 26,
+      "suite": "libero_spatial_swap",
+      "task": 5,
+      "task_language": "Pick the akita black bowl on the ramekin and place it on the plate",
+      "vla_seed": 790964016
+    },
+    {
+      "liberopro_bddl_sha256": "c21f0b9bc3d7efeda568be81320f8132d966ca208cdafa52e3b2d7dee061d8c3",
+      "liberopro_init_states_sha256": "becb5b0f3f7a9c5d38b83ac345f2cd61fa788acfed784735cc46267d37b58ab9",
+      "seed": 26,
+      "suite": "libero_spatial_task",
+      "task": 5,
+      "task_language": "Pick the akita black bowl on the cookie box and place it on the plate",
+      "vla_seed": 530644289
+    },
+    {
+      "liberopro_bddl_sha256": "f62045ea75e923b4af59979ea18c1f8e23ae460144aada45ea131b4b976d0819",
+      "liberopro_init_states_sha256": "fc8133ecc44d322783b682cb05a2aec5d4d6e2aa54bac83b06651e0c421bc452",
+      "seed": 26,
+      "suite": "libero_10_object",
+      "task": 7,
+      "task_language": "put both the alphabet soup and the cream cheese box in the basket",
+      "vla_seed": 1652957514
+    },
+    {
+      "liberopro_bddl_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "liberopro_init_states_sha256": "a10d2f1c0247d704d86ac6a3dfea96be8fb3283403d6e682654fa2214ec2e257",
+      "seed": 26,
+      "suite": "libero_10_swap",
+      "task": 7,
+      "task_language": "put both the alphabet soup and the cream cheese box in the basket",
+      "vla_seed": 1360177938
+    },
+    {
+      "liberopro_bddl_sha256": "96ca246fd570ffea9870b8ab63352168a13e429f2bffff98f3e419aa4b808245",
+      "liberopro_init_states_sha256": "b103a140d1228e92bc3d8393d1a3ff93cdb6b53879ef4ff8219ab8d673769b2b",
+      "seed": 26,
+      "suite": "libero_10_task",
+      "task": 7,
+      "task_language": "put both the ketchup and the cream cheese box in the basket",
+      "vla_seed": 1755340527
+    },
+    {
+      "liberopro_bddl_sha256": "dde30310454bba0ec28583239f80d9a935cfa68809e095308417aa5c03c85b47",
+      "liberopro_init_states_sha256": "5fa33872d124b98786269ab369a08eed421fce68e39cbb79f15d577ccecc850c",
+      "seed": 26,
+      "suite": "libero_10_lan",
+      "task": 8,
+      "task_language": "place both moka pots on stove",
+      "vla_seed": 1092157404
+    },
+    {
+      "liberopro_bddl_sha256": "2e000a752e7d1a0ce2ceaa2f10586fbf22845a32c93243422372d1359c4c2c9c",
+      "liberopro_init_states_sha256": "de5e2de8a24c4422ca606ba534bcdab120a32fd515ce3473ca37d153d8663e27",
+      "seed": 26,
+      "suite": "libero_10_object",
+      "task": 8,
+      "task_language": "put both moka pots on the stove",
+      "vla_seed": 603681883
+    },
+    {
+      "liberopro_bddl_sha256": "bd1cd9e691cf87b076a782e48a91915599ea95eb2c10f8fa24b4753a093323d3",
+      "liberopro_init_states_sha256": "a467eb1d097138ad986fbb56ea95a8cd382326aaf022bc9757ddd94023f7e0a7",
+      "seed": 26,
+      "suite": "libero_10_swap",
+      "task": 8,
+      "task_language": "put both moka pots on the stove",
+      "vla_seed": 964344501
+    },
+    {
+      "liberopro_bddl_sha256": "8193749b068293ae3f118f5cf2711c30b42c28657eae15de8a3d21f2293a6caa",
+      "liberopro_init_states_sha256": "a0f2962d590434c2d44bc3d3108da7b969c2a49b8b1751b104ee6e77682deeec",
+      "seed": 26,
+      "suite": "libero_10_task",
+      "task": 8,
+      "task_language": "put the left moka pot on the stove",
+      "vla_seed": 1899541030
+    },
+    {
+      "liberopro_bddl_sha256": "5332954d79483309828e79a03dd7386b50138c89414a54688fc464c60b22bd9c",
+      "liberopro_init_states_sha256": "b3b25d4cbe48a3218f0028ab8b39a3af5b7a857acb26c676af23d133799a762a",
+      "seed": 26,
+      "suite": "libero_goal_lan",
+      "task": 8,
+      "task_language": "place the bowl on top of the plate",
+      "vla_seed": 1799839737
+    },
+    {
+      "liberopro_bddl_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "liberopro_init_states_sha256": "bfc49fc47486fe872210529a8660da66e0eb6d589a28a3e9d924c6a97c13f73d",
+      "seed": 26,
+      "suite": "libero_goal_swap",
+      "task": 8,
+      "task_language": "Put the bowl on the plate",
+      "vla_seed": 201792964
+    },
+    {
+      "liberopro_bddl_sha256": "f00c9a34c2af8e88a4819acc215e410abe9176484ebedf35bd13c99b52bcc560",
+      "liberopro_init_states_sha256": "4a236e9601a35f9dc46f4abd7471d047c411a53288950a8c5af4d597b531c6d6",
+      "seed": 26,
+      "suite": "libero_goal_task",
+      "task": 8,
+      "task_language": "Put the wine bottle on the plate",
+      "vla_seed": 1067431224
+    },
+    {
+      "liberopro_bddl_sha256": "d56154c34200ce0d1bcbabe1712288f945b4b0aa995be6cec7b2f3d47a457782",
+      "liberopro_init_states_sha256": "0fd5d612f5ed27fc1c331cdcc9b37159acbf6de1cf4fb78ef030c51bb529cd5d",
+      "seed": 26,
+      "suite": "libero_goal_lan",
+      "task": 9,
+      "task_language": "place the wine bottle on the rack",
+      "vla_seed": 1041659960
+    },
+    {
+      "liberopro_bddl_sha256": "4cf8e44712a7a269200114ef61176e4b8a1b21d1531b09abaf2478f0b8fe0769",
+      "liberopro_init_states_sha256": "45f7e4e88cef72525904bb8f8ac57fa4fa51d277f2a7b9718beee0f6b657e9f0",
+      "seed": 26,
+      "suite": "libero_goal_object",
+      "task": 9,
+      "task_language": "Put the wine bottle on the rack",
+      "vla_seed": 624967214
+    },
+    {
+      "liberopro_bddl_sha256": "b5c7107ba2eabe12c6ce7017abe72cb068f8d74c88ca65501870f8751d0ee0c1",
+      "liberopro_init_states_sha256": "0f87de72a0dab4cb15efd1aa25fde03d16901c794909b30ea066bed87d75199f",
+      "seed": 26,
+      "suite": "libero_goal_swap",
+      "task": 9,
+      "task_language": "Put the wine bottle on the rack",
+      "vla_seed": 213423102
+    },
+    {
+      "liberopro_bddl_sha256": "2797a1d5dad5e9747a3e7e94aa258764ca412d15df78e73a7ad29f73283c54a0",
+      "liberopro_init_states_sha256": "1d689368c97c36d6ca4bba0d6c732b6e082715e73791676d71e3bb3e46254b7b",
+      "seed": 26,
+      "suite": "libero_goal_task",
+      "task": 9,
+      "task_language": "Put the cream cheese on the rack",
+      "vla_seed": 863687137
+    },
+    {
+      "liberopro_bddl_sha256": "971213ecd7bfd5e5ec701661d3ff17a3c131b12711285cef8a56082926acef48",
+      "liberopro_init_states_sha256": "dcc789d0c00cf17ed50fa2bd466926f84fccfa6d138e12779cbcc565a0d2a755",
+      "seed": 26,
+      "suite": "libero_object_lan",
+      "task": 3,
+      "task_language": "pick up bbq sauce and put it into basket",
+      "vla_seed": 324748017
+    },
+    {
+      "liberopro_bddl_sha256": "0639b15ed7abb04d59f163807688949d86ac976bd581cc77f9b24aebb4c71eb7",
+      "liberopro_init_states_sha256": "650b107074818bcd4a3eaf45b90b6fe8f30a9eacf2d1638e85fd538e4d507851",
+      "seed": 26,
+      "suite": "libero_object_object",
+      "task": 3,
+      "task_language": "Pick the bbq sauce and place it in the basket",
+      "vla_seed": 1864298579
+    },
+    {
+      "liberopro_bddl_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "liberopro_init_states_sha256": "ebf26fc13814fb2d2637e0d496e59a28bd282d48a294d97a725ea4b8920358d3",
+      "seed": 26,
+      "suite": "libero_object_swap",
+      "task": 3,
+      "task_language": "Pick the bbq sauce and place it in the basket",
+      "vla_seed": 1453146070
+    },
+    {
+      "liberopro_bddl_sha256": "8c74c1db216913d2d5d321613e0c7de99398005493e3792d1d9e329a9e03e0a9",
+      "liberopro_init_states_sha256": "db5ebce3a987ff88cbe4a1b16f48615fc9a351a19fb1193b98089dc141e265f4",
+      "seed": 26,
+      "suite": "libero_object_task",
+      "task": 3,
+      "task_language": "Pick the ketchup and place it in the basket",
+      "vla_seed": 820888172
+    },
+    {
+      "liberopro_bddl_sha256": "9679b704f0210895dfed6dacde7e6540c019a781b6b0b95decf5b0c1bc30fa28",
+      "liberopro_init_states_sha256": "3a23546ea681fe4d18177f4a04990cdd8de8d9f111833074d90b5900f9bb7179",
+      "seed": 26,
+      "suite": "libero_spatial_lan",
+      "task": 7,
+      "task_language": "lift bowl from stove and set on plate",
+      "vla_seed": 1481840968
+    },
+    {
+      "liberopro_bddl_sha256": "1c2cbb90e479410650245b37e8e343a3283404fa0261f92e33fd3e2b4ce9fe39",
+      "liberopro_init_states_sha256": "15409daf9366f8e80984697af48000e4b9a7aab72ee4cc172a6fee4e1e2a591b",
+      "seed": 26,
+      "suite": "libero_spatial_object",
+      "task": 7,
+      "task_language": "Pick the akita black bowl on the stove and place it on the plate",
+      "vla_seed": 697983276
+    },
+    {
+      "liberopro_bddl_sha256": "e2dcdf7743d999cd9f38581a65fca2e066fc9736ec60075f95337c3ca3ca7286",
+      "liberopro_init_states_sha256": "c2c9e517af8e25b1c0bd21152c7603986380e4b8392a43032f76b2ed4c5d4374",
+      "seed": 26,
+      "suite": "libero_spatial_swap",
+      "task": 7,
+      "task_language": "Pick the akita black bowl on the stove and place it on the plate",
+      "vla_seed": 340752428
+    },
+    {
+      "liberopro_bddl_sha256": "76d5b13228a2089430d79ddb039731b0954f0062da74f67d661d594d53635caa",
+      "liberopro_init_states_sha256": "8026fd8590bfe784b5d01a902cb49a8dd341e0dd000998f0338510f40828dca4",
+      "seed": 26,
+      "suite": "libero_spatial_task",
+      "task": 7,
+      "task_language": "Pick the akita black bowl on the top of the cabinet and place it on the plate",
+      "vla_seed": 557580618
+    }
+  ]
+}
