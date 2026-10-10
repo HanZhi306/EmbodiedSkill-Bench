@@ -23,7 +23,7 @@
 
 <img src="docs/images/benchmark-overview.png" alt="EmbodiedSkillBench overview: module collection and skill assembly; an agent observing and acting in the simulator; trajectory logging and evaluation of success, actions, tokens, and time." width="100%">
 
-<p><sub>Figure 2 from the manuscript. From heterogeneous embodied modules to reusable skills and trace-based evaluation.</sub></p>
+<p><sub>Benchmark overview.</sub></p>
 
 </div>
 
